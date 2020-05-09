@@ -1,0 +1,137 @@
+ /* Regroupement de tout les flex ranger en colonne et centrer*/
+body, .bloc-1, .bloc-2, .bloc-3, .bloc-4, #section-band-blanche, .img-col{
+    display: flex;
+    flex-direction: column;
+}
+  .bloc-1, .bloc-2, .bloc-3, .bloc-4, #section-band-blanche{
+    align-items: center;
+    justify-content: center;
+     
+}
+
+/* Corps de la page*/
+#gris{
+    background-color: #f5f5f5;
+}
+#entete{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#h-section-1{
+    padding: 1% 1% 0% 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#h-section-1 a{
+    display: block;
+    /*margin-left: 1%;*/
+    padding: 0% 1% ;
+}
+
+#h-section-1 a:nth-child(2), #h-section-1 a:nth-child(3), #h-section-1 a:nth-child(4){
+    border-left: 2px solid;
+}
+#section-grise{
+    display: flex;
+    justify-content: center;
+    /* background-image: url("../img/carte-du-monde.png");
+    Première valeure largeur, deuxième valeur hauteur
+    background-size: 70% auto;
+    background-repeat: no-repeat;
+    background-position: top right;*/
+}
+#section-grise h1{
+    text-align: left;
+}
+#section-grise article:nth-child(1){
+    width: 35%;
+    align-self: center;
+    padding-left: 3%;
+}
+#section-grise article:nth-child(2){
+    width: 65%;
+}
+#section-band-orange{
+    background-color: #ffc500;
+    padding: 2% 0% 5% 0%;
+    display: flex;
+    flex-direction: column;
+}
+#badge{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin : 5% 10% 0% 10%;
+}
+.badge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 290px;
+    height: 320px;
+    border-radius: 10%;
+    margin: 2% 0%;
+}
+
+.badge p, .badge h3, h1{
+    text-align: center;
+}
+#section-col-og, #section-col-gb{
+    display: flex;
+    flex-wrap: wrap-inverse;
+    justify-content: space-between;
+    height: 450px;
+    color: #fff;
+}
+ 
+#section-col-gb p, #section-col-og p, #section-mobile p{
+    text-align: center;
+    padding: 0% 2%;
+    
+}
+.bloc-1, .bloc-4{
+      
+   width: 47%;
+}
+.bloc-2{
+   width: 50%;    
+   background-color: #ffc500;
+}
+.bloc-3{
+   width: 50%;  
+    background-color: #565656;
+}
+#section-mobile{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #ffc500 , #ff1300);
+    width: 100%;
+    color: #fff;
+}
+#img-mobile{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.img-col{
+    display: flex;
+    flex-direction: column;
+     
+    justify-content: center;
+    align-items: center;
+}
+#store{
+    display: flex;
+     
+    
+}
+.store-1{
+    margin: 0% 5% 0% 20%;
+}
